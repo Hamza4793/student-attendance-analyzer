@@ -1,10 +1,10 @@
-# 🎓 Student Attendance Analyzer
+ Student Attendance Analyzer
 
 This project analyzes and visualizes attendance data to help identify trends, highlight low attendance, and support academic interventions.
 
 ---
 
-## 📂 Project Files
+Project Files
 
 - `attendance_analyzer.py` — Main Python script for analyzing attendance
 - `sample_data.csv` — Example attendance data
@@ -12,7 +12,7 @@ This project analyzes and visualizes attendance data to help identify trends, hi
 
 ---
 
-## 🚀 Features
+ Features
 
 - Calculates monthly attendance rates per class
 - Flags classes with low attendance (<90%)
@@ -20,9 +20,9 @@ This project analyzes and visualizes attendance data to help identify trends, hi
 
 ---
 
-## 📥 How to Use
+ How to Use
 
-### ▶️ Option 1: Run Locally
+ Option 1: Run Locally
 
 #### Step 1: Clone the Repository
 
@@ -47,7 +47,7 @@ python attendance_analyzer.py
 
 ---
 
-### ▶️ Option 2: Run on Google Colab
+Option 2: Run on Google Colab
 
 1. Open [Google Colab](https://colab.research.google.com)
 2. Paste and run the following code:
@@ -59,22 +59,17 @@ python attendance_analyzer.py
 !python attendance_analyzer.py
 ```
 
-✅ The script will execute and the plot will appear in the output.
+The script will execute and the plot will appear in the output.
 
 ---
 
-## 📊 Sample Output
+ Sample Output
 
 A bar chart showing attendance percentage by class and month, with a red line indicating the 90% threshold.
 
 ---
 
-## 🧠 Project Goal
+ Project Goal
 
 To support academic decisions through clear, actionable attendance insights.
 
----
-
-## 💡 License
-
-This project is open-source under the MIT License.
