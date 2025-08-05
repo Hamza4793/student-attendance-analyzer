@@ -53,7 +53,7 @@ Option 2: Run on Google Colab
 2. Paste and run the following code:
 
 ```python
-!git clone https://github.com/yourusername/student-attendance-analyzer.git
+!git clone https://github.com/Hamza4793/student-attendance-analyzer.git
 %cd student-attendance-analyzer
 !pip install seaborn
 !python attendance_analyzer.py
