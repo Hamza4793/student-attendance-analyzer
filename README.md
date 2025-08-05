@@ -1,26 +1,80 @@
-# Student Attendance Analyzer
+# 🎓 Student Attendance Analyzer
 
-This project analyzes and visualizes student attendance data to identify trends and highlight low-attendance classes.
+This project analyzes and visualizes attendance data to help identify trends, highlight low attendance, and support academic interventions.
 
-## Features
-- Class-wise monthly attendance rates
-- Daily attendance trend visualization
-- Alert for chronic absenteeism (<90%)
+---
 
-## Tech Stack
-- Python, Pandas, Matplotlib, Seaborn
-- Google Colab
+## 📂 Project Files
 
-## How to Run
-1. Open `attendance_analyzer.ipynb` in Google Colab
-2. Run all cells
-3. View charts and alerts
+- `attendance_analyzer.py` — Main Python script for analyzing attendance
+- `sample_data.csv` — Example attendance data
+- `README.md` — Project documentation
 
-## Sample Data
-- `sample_data.csv` contains simulated attendance records.
+---
 
-## Outputs
-- Visuals saved in `/screenshots` for reference.
+## 🚀 Features
 
-## Contributors
-- [Your Name]
+- Calculates monthly attendance rates per class
+- Flags classes with low attendance (<90%)
+- Visualizes attendance using bar charts
+
+---
+
+## 📥 How to Use
+
+### ▶️ Option 1: Run Locally
+
+#### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/student-attendance-analyzer.git
+cd student-attendance-analyzer
+```
+
+#### Step 2: Install Required Packages
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+#### Step 3: Run the Script
+
+```bash
+python attendance_analyzer.py
+```
+
+📊 The script will print a summary and show a bar chart of attendance rates.
+
+---
+
+### ▶️ Option 2: Run on Google Colab
+
+1. Open [Google Colab](https://colab.research.google.com)
+2. Paste and run the following code:
+
+```python
+!git clone https://github.com/yourusername/student-attendance-analyzer.git
+%cd student-attendance-analyzer
+!pip install seaborn
+!python attendance_analyzer.py
+```
+
+✅ The script will execute and the plot will appear in the output.
+
+---
+
+## 📊 Sample Output
+
+A bar chart showing attendance percentage by class and month, with a red line indicating the 90% threshold.
+
+---
+
+## 🧠 Project Goal
+
+To support academic decisions through clear, actionable attendance insights.
+
+---
+
+## 💡 License
+
+This project is open-source under the MIT License.
