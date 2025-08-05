@@ -27,7 +27,7 @@ Project Files
 #### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/student-attendance-analyzer.git
+git clone https://github.com/Hamza4793/student-attendance-analyzer.git
 cd student-attendance-analyzer
 ```
 
