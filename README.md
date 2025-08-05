@@ -22,7 +22,7 @@ Project Files
 
  How to Use
 
- Option 1: Run Locally
+  Run Locally
 
 #### Step 1: Clone the Repository
 
@@ -45,21 +45,7 @@ python attendance_analyzer.py
 
 📊 The script will print a summary and show a bar chart of attendance rates.
 
----
 
-Option 2: Run on Google Colab
-
-1. Open [Google Colab](https://colab.research.google.com)
-2. Paste and run the following code:
-
-```python
-!git clone https://github.com/Hamza4793/student-attendance-analyzer.git
-%cd student-attendance-analyzer
-!pip install seaborn
-!python attendance_analyzer.py
-```
-
-The script will execute and the plot will appear in the output.
 
 ---
 
